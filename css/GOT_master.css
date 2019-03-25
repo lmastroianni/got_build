@@ -36,7 +36,7 @@ main {
 	overflow:hidden;
 }
 
-#houseImages { position:relative; width:4000px; transition: all .5s; }
+#houseImages { position:relative; width:4000px; /*transition: all .5s;*/ }
 #houseImages img { float:left; }
 
 #bottomNav { margin-top:30px; }
@@ -128,4 +128,17 @@ video {
 	width: 80%;
 	margin-top: 10%;
 	border: thin solid #949393;
+}
+
+.house-info
+{
+	color: white;
+	margin: 20px auto 0 auto;
+	width: 70%;
+	text-align: center;
+}
+
+.house-name
+{
+	color: white;
 }
